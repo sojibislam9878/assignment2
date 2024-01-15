@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: block;
+    }
+    .nav-logo{
+        width: 400px;
+    }
+    .nav-logo h3{
+        font-size: 1.4rem;
+        margin-top: 8px;
+    }
+    .nav-list{
+        visibility: hidden;
+    }
+    .containe{
+        max-width: 90%;
+        margin: 0 auto;
+
+    }
+    .banner{
+        margin-top: 0px;
+        padding-bottom: 50px;
+        object-fit: cover;
+        background-size: cover;
+    }
+    .banner-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 100%;
+        padding-left: 0.2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .banner-text{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align:center ;
+    }
+    .banner-text h1{
+        font-size: 1.3rem;
+        padding-top: 2rem;
+    }
+        
+    .banner-text p{
+        font-size: .8rem;
+        margin-top: 0.1rem;
+    }
+    .ham-bur{
+        visibility: visible;
+        display: inline;
+        position: absolute;
+        font-size: 30px;
+        top: 64px;
+        right: 10%;
+    }
+    .main-btn{
+        padding-left: 120px;
+    }
+        
+    
+  }
