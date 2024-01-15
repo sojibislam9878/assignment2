@@ -118,3 +118,39 @@ nav {
   font-weight: 400;
   width: 11rem;
 }
+/* ? tours section star here */
+.tours {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+.tours-info h3{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+
+}
+.tours-info > p{
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.tours-info li{
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.tour-btn{
+    margin-top: 36px;
+}
