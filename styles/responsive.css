@@ -4,20 +4,23 @@
         padding: 0;
     }
     nav{
-        display: block;
-    }
-    .nav-logo{
-        width: 400px;
+      max-width: 500px;
+      border: red solid 2px;
+
     }
     .nav-logo h3{
-        font-size: 1.4rem;
+        font-size: 15px;
         margin-top: 8px;
+        display: flex;
+        gap: 5px;
+        padding-top: 7px;
     }
-    .nav-list{
-        visibility: hidden;
+    .nav-list >ul{
+        display: none;
     }
-    .containr{
-        max-width: 90%;
+    .container {
+        width: 100%;
+        max-width: 375px;
         margin: 0 auto;
 
     }
@@ -51,13 +54,9 @@
         font-size: .8rem;
         margin-top: 0.1rem;
     }
-    /* .ham-bur{
-        visibility: visible;
-        display: inline;
-        position: absolute;
+    .ham-bur{
+        visibility:visible;
         font-size: 30px;
-        top: 64px;
-        left: 320px; */
     }
     .main-btn{
         display:flex;
@@ -107,6 +106,6 @@
         grid-column: 1/ span 1 ;
         grid-row: 7/ span 1;
       }
-  }
+}
  
   
