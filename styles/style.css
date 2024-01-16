@@ -30,6 +30,18 @@
   padding: 1rem;
   display: flex;
   gap: 0.5rem;
+  transition-duration: .5s;
+}
+.main-btn:hover{
+  color: var(--primary);
+  background-color: white;
+  outline: var(--primary) solid 1px;
+  transition: .3s;
+  cursor: pointer;
+}
+.nav-list> ul > li  :hover{
+  color: #ff5400;
+  background-color: #5a5a5d34;
 }
 .ham-bur {
   display: none;
@@ -131,20 +143,14 @@ nav {
 }
 .tours-info > p {
   color: rgba(19, 19, 24, 0.7);
-
-  font-family: Mulish;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px;
   margin-top: 24px;
 }
 .tours-info li {
   color: rgba(19, 19, 24, 0.7);
-
-  font-family: Mulish;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px;
   margin-top: 20px;
@@ -333,16 +339,6 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
-/* .deals1{
-  background-image: url(/images/deals2.png)
-}
-.deals1{
-  background-image: url(../images/deals1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  min-height: 500px;
-} */
 .discounts-card {
   display: flex;
   flex-direction: column;
@@ -494,4 +490,58 @@ footer {
   font-family: Mulish;
   font-size: 32px;
   font-weight: 800;
+}
+/* ? my own section */
+.last-review{
+  margin-top: 60px;
+}
+.review-title h1{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.review-title p{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-top: 16px;
+}
+.review-card{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+.review-card h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.review-card p{
+  text-align: center;
+}
+.review-title{
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.last-card{
+  width: 360px;
+  height: 340px;
+  border-radius: 15px;
+  background-color:rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.151);
+}
+.man{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 70px;
+  color: rgb(16, 111, 167);
+}
+.checked{
+  color: orange;
 }

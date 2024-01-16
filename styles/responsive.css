@@ -23,7 +23,7 @@
     margin: 0 auto;
   }
   .choose-us,
-  .destination {
+  .destination{
     margin: 30px;
   }
   .banner {
@@ -57,6 +57,7 @@
     font-size: 0.7rem;
     margin-top: 0.1rem;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .ham-bur {
     display: block;
@@ -132,6 +133,9 @@
     font-size: 14px;
   }
   /* ? news letter section */
+  .last-review{
+    padding-top: 30px;
+  }
   .letter-flex {
     display: flex;
     flex-direction: column;
@@ -165,5 +169,11 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+  }
+  /* ? my won section */
+  .review-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
