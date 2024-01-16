@@ -5,7 +5,7 @@
     }
     nav{
       max-width: 500px;
-      border: red solid 2px;
+      margin-bottom: 18px;
 
     }
     .nav-logo h3{
@@ -78,6 +78,12 @@
         grid-template-rows: repeat(7, 1fr);
       
       }
+      .destination-text > h3{
+        font-size: 20px;
+      }
+      .destination-text > p{
+        font-size: 14px;
+      }
       .pic-1{
         grid-column: 1/ span 1;
         grid-row: 1/ span 1;
@@ -105,6 +111,15 @@
       .pic-7{
         grid-column: 1/ span 1 ;
         grid-row: 7/ span 1;
+      }
+      /* ? choose section  */
+      .us-text{
+        width: 90%;}
+      .us-text h3{
+        font-size: 20px;
+      }
+      .us-text p{
+        font-size: 14px;
       }
 }
  
