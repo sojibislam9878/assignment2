@@ -18,9 +18,13 @@
     display: none;
   }
   .container {
-    width: 100%;
+    width: 95%;
     max-width: 375px;
     margin: 0 auto;
+  }
+  .choose-us,
+  .destination {
+    margin: 30px;
   }
   .banner {
     margin-top: 0px;
@@ -44,17 +48,26 @@
     text-align: center;
   }
   .banner-text h1 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-top: 2rem;
   }
 
   .banner-text p {
-    font-size: 0.8rem;
+    max-width: 100%;
+    font-size: 0.7rem;
     margin-top: 0.1rem;
+    margin: 0 auto;
   }
   .ham-bur {
-    visibility: visible;
+    display: block;
     font-size: 30px;
+  }
+  .footer-title h2 {
+    font-size: 20px;
+    display: flex;
+  }
+  .footer-logo {
+    margin-left: -30px;
   }
   .main-btn {
     display: flex;
@@ -125,5 +138,32 @@
   }
   .text-content {
     max-width: 90%;
+  }
+  .stamp {
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    border-radius: 10px;
+    left: 41%;
+    top: 52%;
+  }
+  .stamp h6 {
+    color: #fff;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15.854px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .stamp h4 {
+    color: #fff;
+
+    font-family: Mulish;
+    font-size: 21.138px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
 }
