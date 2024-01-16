@@ -43,6 +43,9 @@
   color: #ff5400;
   background-color: #5a5a5d34;
 }
+.social-icons :hover{
+  cursor: pointer;
+}
 .ham-bur {
   display: none;
 }
